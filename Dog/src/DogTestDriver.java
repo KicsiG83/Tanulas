@@ -3,8 +3,9 @@ class DogOKTestDrive{
     public static void main(String[] args){
 
         Dog d = new Dog();
-        d.fajta = "border collie";
-        d.meret = 40;
-        d.ugatas();
+        d.name = "Fido";
+        d.breed = "border collie";
+        d.size = 40;
+        d.bark();
     }
 }

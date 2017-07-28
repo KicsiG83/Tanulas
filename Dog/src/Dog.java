@@ -1,10 +1,12 @@
 class Dog {
 
-    int meret;
-    String fajta;
-    String nev;
+    int size;
+    String breed;
+    String name;
 
-    void ugatas(){
-        System.out.println("Vau! vau!");
+    public void bark () {
+        System.out.print(name + " mondja ");
+            System.out.println("vau vau!");
     }
+
 }
